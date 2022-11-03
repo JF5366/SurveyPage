@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url('Mountain.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  
+}
+textarea{
+  background-color: #e8e5f5;
+}
+
+.header{
+  background: rgba(163, 184, 224, 0.67);
+  margin: 10px;
+  display: flex;
+   width: 100%;
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+  font-family: "Tahoma", Times, serif;
+  border-bottom: 5px solid black;
+}
+header p{
+  font-weight: bold;
+}
+
+.form{
+  background: rgba(163, 184, 224, 0.8);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #bcbcf5;
+  margin: 25%;
+}
+
+.form-group{
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+#dropdown1{
+  max-width: 100%;
+}
+.form{
+  margin-top: 10px;
+}
+textarea {
+    max-width: 100%;
+}
+.submit-button{
+  
+  margin: auto;
+}
+#button-parent{
+  min-height: 20px;
+  display: flex;
+}
